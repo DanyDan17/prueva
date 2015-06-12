@@ -1,0 +1,347 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>}
+<script src="jquery-mobile/acciones.js"></script>
+<style>
+<br>
+.imagen
+	{
+		width:160 px;
+		height:160 px;	
+	}
+
+</style>
+</head> 
+<body> 
+
+<div class="ui-bar-e" id="page" data-role="page">
+	<div class="ui-btn-hover-e" data-role="header">
+		<h1>REVISTA DIGITAL</h1>
+	</div>
+    
+	<div data-role="content">
+		<div align="center" data-role="collapsible-set" 	 		data-type="vertical">
+      <div style="width:80%;">
+      
+        <a href="#page2" data-role="button" id="bot1">
+       	TECNOLOGIA
+        </a>
+        
+        <a href="#page3" data-role="button" id="bot1">
+        ARREGLO PERSONAL
+        </a>
+        
+       	<a href="#page4" data-role="button" id="bot1">
+       	OCIOS
+        </a>
+        
+   		<a href="#page5" data-role="button" id="bot1">
+        MUSICA
+        </a>
+        
+       	<a href="guias/GUIA ESTUDIANTIL.docx"  data-role="button" id="bot1" >
+       	guia estudiantil
+        
+        </a>
+        
+        
+        <a href="#page8" data-role="button" id="bot1">
+        CREDITOS DEL APP
+        </a>
+
+        
+      	<input type="button" value="Cerrar App" onclick="window.close()">
+        
+        
+        </div>
+        </div>     		
+	</div>
+    
+    	<div data-role="footer" class="ui-btn-hover-e">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div class="ui-btn-down-a" id="page2" " data-role="page">
+  <div class="ui-btn-hover-b" data-role="header">TECNOLOGIA</div>
+
+	<div class="ui-btn-hover-e" data-role="content">
+	  <p><strong>&ldquo;Internet de las Cosas&rdquo; o dispositivos conectados en la nube.</strong> En el futuro , los chips y sensores conectados a la nube estarán en dispositivos de uso cotidiano. No serán sólo la televisión, tablets o móviles los que estén conectados sino también la calefacción, el coche, la nevera, marcapasos y este<a href="http://www.ticbeat.com/tecnologias/teddy-guardian-mucho-mas-simple-juguete/" target="_blank"> osito de peluche tan especial</a>.</p>
+	  <p><img src="imagenes/internet.jpg" width="490" height="269" alt="im"></p>
+	  <p><strong>Impresión 3D.</strong> Hace cinco años, las <a href="http://es.wikipedia.org/wiki/Impresi%C3%B3n_3D" target="_blank">impresoras 3D</a> estaban fuera de nuestro alcance, salvo para las grandes empresas. Hoy en día cualquier persona con $1,300 puede comprar una impresora 3D Cubify y puede imprimir miles de objetos.</p>
+      <div id="apDiv2"></div>
+      <p><img src="imagenes/impresion.jpg" width="464" height="316" alt="IM"></p>
+      <p><strong>Coches sin conductor.</strong> Tanto Tesla y Google están trabajando en la construcción de un coche que se conduce solo. En Masdar, (Emiratos Árabes Unidos), la &ldquo;Ciudad del Futuro&rdquo;, los coches de transporte automatizados electrónicos (llamados podcars) se utilizan en subterráneos como parte de la iniciativa de construir una ciudad sin emisiones de carbono. </p>
+      <div id="apDiv3"></div>
+      <p><img src="imagenes/cochesin.jpg" width="500" height="324" alt="CO"></p>
+      <p><strong>Viajes privados al Espacio.</strong> Compañías como SpaceX y Virgin Galactic están trabajando para permitir viajes espaciales comerciales. En el año 2025, cualquier persona con $100.000 podrá ir al espacio. En el año 2050, cualquier persona con $5.000 podrá hacer el viaje.</p>
+      <div id="apDiv4"></div>
+      <p><img src="imagenes/espa.jpg" width="469" height="342" alt="ES"></p>
+      <p><strong>Desalinización del Agua.</strong> Gracias a una investigación reciente en el MIT se ha utilizado grafeno para crear una forma de alta eficiencia energética para eliminar la sal del agua. A medida que la población humana crece, llegará a 9.500 millones en 2050, garantizará el acceso al agua potable para una parte de pueblos que carecen de ella. Algo de vital importancia para permitir tanto la mejora de la salud y de la alimentación como la estabilidad geopolítica.</p>
+      <div id="apDiv5"></div>
+      <p><img src="imagenes/agua.jpg" width="471" height="321" alt="A"></p>
+
+	<BR>
+    
+    
+    <div align="center" data-role="collapsible-set" 	 		data-type="vertical">
+    <div style="width:70%;">
+            <a href="#page" data-role="button" id="bot1" class="ui-btn-hover-e" >
+       	Regresar Inicio
+        </a>
+        </div>
+        
+        
+        
+  </div>
+  
+	<div class="ui-btn-hover-b" data-role="footer">C.B.T.i.s N°86</div>
+    
+</div>
+</div>
+
+
+
+
+<div data-role="page" id="page3" >
+	<div data-role="header">
+		  <div class="ui-btn-hover-b" data-role="header">ARREGLO PERSONAL </div>
+	</div>
+	<div data-role="content">
+    
+<div align="center" data-role="collapsible-set" 	 		data-type="vertical"   class="ui-btn-hover-e">
+      <div style="width:50%;" align="center">        
+      
+        <a href="#pagecosmeticos" data-role="button" id="bot1">
+       	TIPS DE BELLEZA
+        </a>
+        
+        <a href="#pagemoda" data-role="button" id="bot1">
+        MODA
+        </a>
+        
+        <a href="#page" data-role="button" id="bot1" >
+       	Regresar Inicio
+        </a>
+        </div>
+        </div>
+        	
+</div>
+	<div data-role="footer">
+		<div class="ui-btn-hover-b" data-role="footer">C.B.T.i.s N°86</div>
+        
+	</div>
+</div>
+
+<div data-role="page" id="pagecosmeticos" >
+	<div data-role="header">
+		  <div class="ui-btn-hover-b" data-role="header">TIPS DE BELLEZA</div>
+	</div>
+	<div data-role="content">	
+	<div align="center" data-role="collapsible-set" 	 		data-type="vertical">
+      <div style="width:80%;">
+      
+        <a href="#pagetip1" data-role="button" id="bot1">
+        #1 Mantén todo en un mismo lugar
+        </a>
+        <a href="#pagetip2" data-role="button" id="bot1">
+        #2 Aplica humectante con color
+        </a>	
+      	<a href="#pagetip3" data-role="button" id="bot1">
+       	#3 Guarda el labial en la cartera
+        </a>
+        <a href="#pagetip4" data-role="button" id="bot1">
+        #5 Despertador cinco minutos antes
+        </a>
+        <a href="#page" data-role="button" id="bot1">
+       	Regresar Inicio
+        </a>
+        </div>
+        </div>
+        </div>
+	<div data-role="footer">
+		<div class="ui-btn-hover-b" data-role="footer">C.B.T.i.s N°86</div>
+        
+	</div>
+</div>
+
+<div data-role="page" id="pagemoda" >
+	<div data-role="header">
+		  <div class="ui-btn-hover-b" data-role="header">MODA</div>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer">
+		<div class="ui-btn-hover-b" data-role="footer">C.B.T.i.s N°86</div>
+	</div>
+</div>
+    
+    
+    
+   
+</div>
+<div data-role="page" id="page4" >
+	<div data-role="header">
+      <div class="ui-btn-hover-b" data-role="header">OCIOS</div>
+	</div> 
+    <div   data-role="content" style="background-image:url(ocios%20imagenes/fondo.jpg)">
+    <br>
+  <h4 > 1. Mensajería: WhatsApp</h4>
+
+Puede que no quieras tenerla principio, pero al final la gran mayoría acaba teniendo WhatsApp. Es mejor que no te resistas y descargues la aplicación ya. Es la más famosa y creo que la mayoría sabe para qué es: mensajería instantánea y gratuita, además de envio de vídeos cortos, fotografías y notas de voz.
+Es mas rapida y eficaz para enviar mensajes y tiene un costo muy minimo por año. 
+<h4><strong>2. Redes sociales: Facebook, Twitter, e Instagram</strong></h4>
+
+¡Afrontémoslo! De cada tres veces que miramos nuestro telefono movil, estamos consultando redes sociales. Las imprescindibles, las que la mayoría de usuarios actualizan a diario son tres: Facebook, Twitter o Instagram. Las tres juntas o por separado son las primeras aplicaciones básicas para instalar en cuanto tengas tu nuevo telefono movil en las manos.
+
+<h4><strong>3. Juegos:Pou</strong></h4>
+¡Tamagotchi es cosa del pasado! Ahora tenemos a Pou dentro de nuestro telefono movil.Pou es la mascota virtual para tu Android. ¿Crees que puedes cuidar a tu mascota y hacerlo crecer? Al más puro estilo Tamagochi del futuro, podrás alimentar, limpiar y jugar con Pou. Además podrás subir de nivel.
+<h4><strong>4. Fotos:PicsArt</strong></h4>
+Hay algunas aplicaciones que no nos cansamos de probar como son las apps de edición de fotos (todos llevamos un fotógrafo en nuestro interior).Es muy facil de utilizar es gratuita y solo se requiere de tiempo para poder editar una fotografia ya que nos da las herramientas necesarias para hacerlo.
+<h4><strong>5. Misica y Audio:Spotify</strong></h4>
+Spotify es uno de los mejores servicios de música. La aplicación es gratis, pero el servicio puede  ser de pago o gratis, aunque este último ofrece horas limitadas de música y publicidad. Tiene muchísimos discos, canciones y artistas en su base de datos.Ahora Spotify es gratis en móvil y tablet. Escucha la música perfecta estés donde estés. Con Spotify tienes acceso a todo un mundo de música. Puedes escuchar a artistas y álbumes o crear tus propias playlists con tus canciones favoritas. 
+
+<div align="center" data-role="collapsible-set" 	 		data-type="vertical">
+    <div style="width:70%;">
+            <a href="#page" data-role="button" id="bot1" class="ui-btn-hover-e" >
+       	Regresar Inicio
+        </a>
+        </div>
+        
+	</div>
+    
+    <div data-role="footer">
+	  <h4>¡¡¡ Descargalas ya!!</h4>
+      </div>
+      
+	</div>
+ </div>>
+
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		 <div class="ui-btn-hover-b" data-role="header">MUSICA</div>
+	</div>
+	<div class="musica" style ="background:url(imagenes%20de%20musica/12345.jpg)" data-role="content" >	
+		<ul>
+		  <li>
+		    <center>
+		      <img src="imagenes de musica/images.jpg" scr="images.jpg" ></center>	
+		    *Generos de musica mas escuchados del momento.
+		    *Los cuales se en listan de la mas sonada a la menos escuchada.	
+		    Cantantes/Grupos Más Visitados:
+            <br>
+            <br>
+		    1º 		:: Ricardo Arjona
+            <br>
+		    2º 	 	:: Romeo
+            <br>
+		    3º 	 	:: Nicky Jam
+            <br>
+		    4º 	 	:: Ha-Ash
+            <br>
+		    5º 	 	:: Bruno Mars
+            <br>
+            <br>
+            *Top 5 Géneros musicales que deberían ser más populares
+<br>
+<br>
+
+¡Hola de nuevo! Quizá te haya sorprendido el título en un sitio tan vinculado al videomarketing, cultura audiovisual, etc…pero no temas, hemos preparado una justificación en cada punto que seguro te animará a ampliar tu biblioteca musical.
+<br>
+<br>
+
+1.- "BANDA"
+Una banda de música es una agrupación musical formada básicamente por instrumentos de viento y percusión, opcionalmente puede haber otros tipos de instrumentos como instrumentos de cuerda (en el caso las bandas sinfónicas). Aunque las bandas de música sean similares a las orquestas en su disposición cabe mencionar que ambas agrupaciones son distintas. Las bandas de música, a diferencia de las orquestas, no están basadas en los instrumentos de cuerda sino de viento (téngase en cuenta que en algunas bandas como las sinfónicas también puede haber instrumentos de cuerda como los violonchelos, contrabajos, etc.).
+<br>
+<center><img src="imagenes de musica/banda.jpg" scr="banda.jpg" width="300" height="250"></center>
+<br>
+<br>
+
+2.-"POP"
+La música pop (del inglés pop music, contracción de popular music) es un género de música popular que tuvo su origen a finales de los años 1950 como una derivación del rock and roll, en combinación con otros géneros musicales que estaban en moda en aquel momento.1 2 Los términos música pop y música popular se usan a menudo de manera indistinta, aunque el segundo tiene un sentido más amplio al dar cabida a otros géneros distintos del pop que se consideren populares
+<br>
+<br>
+<center><img src="imagenes de musica/POP.jpeg" scr="POP.jpg" height="136" width="360"></center>
+<br>
+<br>
+3.-  Heavy metal
+Ese género que bebe del hard rock, blues, de los bombos rápidos y los instrumentos distorsionados, que admite tantísimas variantes como géneros hay en el mundo (glam metal, trash metal, deth metal, progressive, etc)…y que merece la pena invertir un poco de tiempo en investigar un poco sobre él, por aquello de que es muy probable que te lleves una sorpresa.
+Porqué: La cantidad de minutos de cine producidos con este tipo de música como hilo conductor es ingente. Tienes desde mockumentaries (falsos documentales) que se han convertido en filmes de culto (“This is Spinal Tap”) hasta series de dibujos animados (“Metalocalypse”). Además, resulta imprescindible para entender según qué aspectos de la cultura americana de los años 60.
+<br>
+<br>
+<center><img src="imagenes de musica/metal.jpg" scr="metal.jpg" height="136" width="360"></center>
+<br>
+<br>
+4.- "POP EN INGLES"
+Nos adentramos en la américa decimonónica, donde lo habitual era poseer varios esclavos. De la inquietud de estos esclavos por plasmar en su música su estado de ánimo, y del hecho de que trajeron su tradición musical desde África para incorporarla a los esquemas occidentales, salió una sonoridad original y excepcionalmente expresiva. Las cadencias eran sencillas, y los acordes se basaban en lo que ellos llamaban las “blue notes”: la tercera y la séptima.
+<br>
+<br>
+<center><img src="imagenes de musica/POP EN INGLES.jpg" scr="POP EN INGLES.jpg" height="136" width="360"></center>
+<br>
+<br>
+5.- Música clásica
+El principio de todo, los cánones, las notaciones, la armonía, la nomenclatura, las estructuras que mueven nuestra cultura musical…todo parte de la música antigua. Si eres de los que escuchan música electrónica, quizá te interese saber que las progresiones que usa el house más comercial ya las usaba Bach en su obra El Clave Bien Temperado. Pero concebidas desde otro punto de vista, claro. Los acordes de séptima que antes mencionábamos en el blues, eran un habitual de las obras de Haydn, por ejemplo.
+
+		    
+		    
+	      </li>
+	  </ul>
+      
+      <div align="center" data-role="collapsible-set" 	 		data-type="vertical">
+    <div style="width:70%;">
+            <a href="#page" data-role="button" id="bot1" class="ui-btn-hover-e" >
+       	Regresar Inicio
+        </a>
+        </div>
+        
+	</div>
+    
+	</div>
+	<div data-role="footer">
+	  <h4>Pie de página</h4>
+      
+	</div>
+</div>
+
+
+<div class="ui-btn-up-e" id="page8" data-role="page">
+	<div data-role="header">
+		 <div class="ui-btn-hover-b" data-role="header">CREDITOS DE LA APLICACION</div>
+	</div>
+	<div class="creditos" data-role="content">	
+		<p>Creada por: Equipo 4</p>
+		<p>Integranes de Equipo:</p>
+		<p>Esmeralda Marquez Lechuga</p>
+		<p>Natalia Sampayo Vazquez</p>
+		<p>Victor Manuel Martinez Gomez</p>
+		<p>Juan Daniel Cruz Martinez</p>
+		<p>Eugenia Elizabeth Vazquez Reyes</p>
+		<p>Jonathan Bonilla Vargas</p>
+		<p>Producida para:</p>
+		<p>Proyecto final de la materia &quot;Desarrolla aplicaciones Moviles&quot;</p>
+		<p>Profesor : David Nieto Lopez</p>
+        
+        <div align="center" data-role="collapsible-set" 	 		data-type="vertical">
+    <div style="width:70%;">
+            <a href="#page" data-role="button" id="bot1" class="ui-btn-hover-e" >
+       	Regresar Inicio
+        </a>
+        </div>
+        
+	</div>
+	<div class="ui-btn-up-e" data-role="footer">
+	   <div class="ui-btn-hover-b" data-role="header">C.B.T.i.s. 86 Tecnicos en PROGRAMACION 4"E"</div>
+       
+	</div>
+</div>
+
+
+</body>
+</html>
